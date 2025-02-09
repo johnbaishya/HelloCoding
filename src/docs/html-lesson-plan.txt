@@ -1,0 +1,51 @@
+Level 1: Introduction to HTML
+HTML Definition
+HTML Structure
+The Document Object Model (DOM)
+HTML File Syntax and Structure
+Level 2: Basic HTML Tags
+HTML Headings (<h1> to <h6>)
+Paragraphs (<p>)
+Text Formatting (<strong>, <em>, <u>)
+Line Breaks (<br>)
+Horizontal Rules (<hr>)
+Comments (<!-- -->)
+Level 3: HTML Attributes
+Introduction to Attributes
+Global Attributes (id, class, style, etc.)
+Links and the href Attribute
+Image Attributes (src, alt)
+The title Attribute
+Forms and Form Elements (<input>, <button>, <select>)
+Level 4: Links and Media
+Working with Links (<a>)
+Opening Links in New Tabs
+Embedding Images (<img>)
+Audio and Video Tags (<audio>, <video>)
+Embedding Content from Other Sites (<iframe>)
+Level 5: Lists and Tables
+Unordered Lists (<ul>)
+Ordered Lists (<ol>)
+Definition Lists (<dl>)
+Table Structure (<table>, <tr>, <th>, <td>)
+Nested Lists and Tables
+Level 6: Forms and Input Elements
+Introduction to Forms
+Form Attributes (action, method)
+Text Inputs (<input type="text">, <input type="password">)
+Radio Buttons and Checkboxes
+Dropdown Menus (<select>)
+Submit Buttons and Actions
+Level 7: Semantic HTML
+Importance of Semantic HTML
+Semantic Tags (<header>, <footer>, <article>, <section>, <nav>, etc.)
+Creating Accessible Web Content
+Level 8: HTML5 New Features
+HTML5 Structural Elements (<main>, <section>, <article>)
+HTML5 Form Enhancements (<input type="email">, <input type="date">, etc.)
+New Input Attributes (placeholder, required, pattern)
+Level 9: HTML Best Practices
+Writing Clean and Well-Structured Code
+Accessibility (ARIA)
+Optimizing HTML for SEO
+Best Practices for Forms and Input Validation

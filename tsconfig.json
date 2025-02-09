@@ -1,0 +1,7 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "include": [
+    "src/**/*",  // Your source files
+    "custom.d.ts" // Include your custom declaration file
+  ]
+}
