@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { SnackbarType } from "../../Types/componentType";
 
 
 const initialState = {
@@ -15,6 +16,9 @@ const initialState = {
     loginLoading:false,
     registerLoading:false,
     darkTheme:false,
+    showSnackbar:false,
+    snackbarType:SnackbarType.default as SnackbarType,
+    snackbarMessage:"",
 };
 
 export type appStateType = typeof initialState;

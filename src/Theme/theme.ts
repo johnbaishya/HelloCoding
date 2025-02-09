@@ -18,6 +18,10 @@ export const customLightTheme:CustomThemeProp = {
         surfaceVariant:COLORS.textInputBackground,
         onSurfaceVariant:COLORS.placeholder,
         secondary:COLORS.secondary,
+        dangerBackground:COLORS.dangerBackGround,
+        successBackground:COLORS.successBackground,
+        danger:COLORS.danger,
+        success:COLORS.success,
         
     },
     dark:false,
@@ -38,6 +42,10 @@ export const customDarkTheme:CustomThemeProp = {
         surfaceVariant:COLORS.darkTextInputBackground,
         onSurfaceVariant:COLORS.darkPlaceholder,
         secondary:COLORS.darkSecondary,
+        dangerBackground:COLORS.darkDangerBackground,
+        successBackground:COLORS.darkSuccessbackground,
+        danger:COLORS.danger,
+        success:COLORS.success,
     },
     dark:true,
 };

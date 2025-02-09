@@ -37,6 +37,32 @@ const htmlLevel1:RawLevel =  {
             type: ModuleType.lesson,
             content:level1module4,
         },
+        {
+            name: "Quiz: HTML Basics - Part 1",
+            description: "Test your understanding of basic HTML definitions and concepts.",
+            type: ModuleType.quiz,
+            question: "What does HTML stand for?",
+            options: [
+              { name: "A", content: "HyperText Markup Language" },
+              { name: "B", content: "Home Tool Markup Language" },
+              { name: "C", content: "Hyperlinks and Text Markup Language" },
+              { name: "D", content: "Hyperlinking Text Management Language" }
+            ],
+            correctAnswer: "A"
+          },
+          {
+            name: "Quiz: HTML Basics - Part 2",
+            description: "Further test your knowledge of HTML elements and valid tags.",
+            type: ModuleType.quiz,
+            question: "Which of the following is a valid HTML element?",
+            options: [
+              { name: "A", content: "<div>" },
+              { name: "B", content: "<span>" },
+              { name: "C", content: "<header>" },
+              { name: "D", content: "All of the above" }
+            ],
+            correctAnswer: "D",
+          },
     ],
 };
 

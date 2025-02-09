@@ -11,6 +11,7 @@ import { StatusBar } from "react-native";
 import { customDarkTheme, customLightTheme } from "../Theme/theme";
 import { COLORS } from "../Constants/themeConstants";
 import appConfig from "../Config/appConfig";
+import CustomSnackbar from "../Components/Modals/CustomSnackbar";
 
 const Route = ()=>{
     const {authenticated,showSplashScreen} = useSelector((state:RootState)=>state.app);
@@ -21,11 +22,11 @@ const Route = ()=>{
     return(
         <>
             <PaperProvider theme={darkTheme ? customDarkTheme : customLightTheme}>
-            <AppModals/>
                 <StatusBar
                 barStyle={darkTheme ? 'light-content' : 'dark-content'}
                 backgroundColor={COLORS.primary}
                 />
+                <AppModals/>
                 <NavigationContainer>
                     <>
                     {

@@ -9,6 +9,10 @@ export type CustomThemeProp = ThemeProp &{
         card:string,
         outline:string,
         secondary:string,
+        dangerBackground:string,
+        successBackground:string,
+        danger:string,
+        success:string,
     }
 };
 

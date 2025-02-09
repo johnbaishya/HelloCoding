@@ -5,7 +5,7 @@ const moduleStyles = StyleSheet.create({
     moduleListContainer:{
         padding:10,
         gap:10,
-        flex:1,
+        // flex:1,
         flexDirection:"column",
         // justifyContent:"center",
         // backgroundColor:"red"

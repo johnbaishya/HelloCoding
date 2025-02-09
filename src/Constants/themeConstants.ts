@@ -4,8 +4,8 @@ const {width,height} = Dimensions.get('screen');
 
 export const IMAGES = {
     userIcon: require("../Assets/icons/user.png"),
-    htmlIcon: require("../Assets/icons/html.png"),
-    cssIcon:require("../Assets/icons/css.png"),
+    // htmlIcon: require("../Assets/icons/html.png"),
+    // cssIcon:require("../Assets/icons/css.png"),
 }
 
 export const COLORS = {
@@ -21,6 +21,8 @@ export const COLORS = {
     textInputBackground:"#fff",
     placeholder:"#ababab",
     secondary:"#c5dbca",
+    dangerBackGround:"#f7b2ad",
+    successBackground:"#9df2d3",
     
     
     
@@ -35,11 +37,15 @@ export const COLORS = {
     darkTextInputBackground:"#121518",
     darkPlaceholder:"#454545",
     darkSecondary:"#404a42",
+    darkDangerBackground:"#754e4b",
+    darkSuccessbackground:"#406b5b",
     
     // common Colors
     white:"#fff",
     black:"#000",
     title:"#000",
+    danger:"#f73f31",
+    success:"#12a157",
 
 }
 

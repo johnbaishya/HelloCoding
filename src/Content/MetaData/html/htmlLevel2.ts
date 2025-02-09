@@ -48,6 +48,48 @@ const htmlLevel2:RawLevel =   {
             type: ModuleType.lesson,
             content:level2module6,
         },
+        {
+            name: "Quiz: Basic HTML Tags - Part 1",
+            description: "Assess your knowledge of basic HTML tags for text and structure.",
+            type: ModuleType.quiz,
+            question: "Which tag is used to create a paragraph in HTML?",
+            options: [
+              { name: "A", content: "<p>" },
+              { name: "B", content: "<div>" },
+              { name: "C", content: "<span>" },
+              { name: "D", content: "<header>" }
+            ],
+            correctAnswer: "A"
+          },
+          {
+            name: "Quiz: Basic HTML Tags - Part 2",
+            description: "Test your understanding of HTML headings and structure.",
+            type: ModuleType.quiz,
+            question: "What does the <h1> tag represent in HTML?",
+            options: [
+              { name: "A", content: "The most important heading" },
+              { name: "B", content: "A subheading" },
+              { name: "C", content: "A paragraph" },
+              { name: "D", content: "A small caption" }
+            ],
+            correctAnswer: "A",
+          },
+          {
+            courseIndex: 2,
+            levelIndex: 2,
+            index: 2,
+            name: "Quiz: Basic HTML Tags - Part 3",
+            description: "Evaluate your understanding of basic HTML formatting and comments.",
+            type: ModuleType.quiz,
+            question: "How do you write a comment in HTML?",
+            options: [
+              { name: "A", content: "<!-- comment -->" },
+              { name: "B", content: "// comment" },
+              { name: "C", content: "/* comment */" },
+              { name: "D", content: "<comment>" }
+            ],
+            correctAnswer: "A",
+          },
     ],
 };
 
